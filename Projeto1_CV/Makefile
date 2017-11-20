@@ -1,0 +1,3 @@
+all :	
+	g++ DisplayImage.cpp -o out -I /usr/local/include/opencv -L /usr/local/lib -lm -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_objdetect
+	./out lena.jpg
